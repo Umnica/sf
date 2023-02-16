@@ -1,5 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-for (int i = 0; i < 10; i++)
+﻿internal class Program
 {
-    Console.WriteLine("Hello, World!");
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+
+
+        int f(int x = 0)
+        {
+            return x;
+        }
+        Console.WriteLine(f());
+    }
 }
+
