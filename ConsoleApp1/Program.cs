@@ -2,14 +2,9 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-
-
-        int f(int x = 0)
-        {
-            return x;
-        }
-        Console.WriteLine(f());
+        Console.WriteLine("имя?");
+        string s = Console.ReadLine();
+        Console.WriteLine("хаай " + s + '!');
     }
 
     // написал что-то еще умное 
